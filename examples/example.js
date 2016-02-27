@@ -7,7 +7,7 @@ var MicroEvent	= require('../microevent-debug.js')
 var Ticker	= function( interval ){
 	var self	= this;
 	setInterval(function(){
-		self.trigger('tick', new Date());
+		self.emit('tick', new Date());
 	}, 1000);
 };
 /**
