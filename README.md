@@ -6,6 +6,8 @@ It works on node.js and browser. It is a single .js file containing
 a <a href="https://github.com/jeromeetienne/microevent.js/blob/master/microevent.js#L12-31">20 lines class</a>
 (only 321-bytes after minification+gzip).
 
+In this fork I renamed `trigger` to `emit` because it's shorter and more familiar to node EventEmitter's `emit()`.
+
 ## How to Use It
 
 You need a single file [microevent.js](https://github.com/jeromeetienne/microevent.js/raw/master/microevent.js).
@@ -40,7 +42,7 @@ triggering 'tick' event every second, and add the current date as parameter
 var Ticker = function(){
     var self = this;
     setInterval(function(){
-        self.trigger('tick', new Date());
+        self.emit('tick', new Date());
     }, 1000);
 };
 ```
