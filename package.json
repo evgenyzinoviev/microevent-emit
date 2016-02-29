@@ -1,6 +1,16 @@
 {
-	"name"		: "microevent-emit",
-	"version"	: "1.0.1",
-	"description"	: "event emitter micro library (works in node+browser)",
-	"main"		: "microevent.js"
+  "name": "pemit",
+  "version": "1.1",
+  "description": "ES6 event emitter micro library",
+  "main": "emitter.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evgenyzinoviev/pemit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evgenyzinoviev/pemit/issues"
+  },
+  "homepage": "https://github.com/evgenyzinoviev/pemit#readme"
 }
