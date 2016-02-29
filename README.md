@@ -1,13 +1,13 @@
 # pemit
 
-```js
+```
 npm install --save pemit
 ```
 
 Example
 ---
 
-```
+```js
 import Emitter from 'pemit'
 class AnyClass extends Emitter {
     // ...
