@@ -24,7 +24,7 @@ class Emitter {
       return
     }
     for (let i = 0; i < this._emitterEvents[event].length; i++) {
-      this._emitterEvents[event][i].apply(this, args);
+      this._emitterEvents[event][i].apply(this, args)
     }
   }
 }
