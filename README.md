@@ -1,6 +1,6 @@
 # pemit
 
-```
+```js
 npm install --save pemit
 ```
 
